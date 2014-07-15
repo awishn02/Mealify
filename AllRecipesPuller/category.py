@@ -1,7 +1,7 @@
-from bs4 import BeautifulSoup
+import sys
 import requests
 from recipe import RecipePuller
-import sys
+from bs4 import BeautifulSoup
 
 class CategoryPuller:
     def __init__(self, url):
