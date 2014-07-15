@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1156434010">
+    <data-source source="LOCAL" name="PostgreSQL - mealify@localhost" uuid="c4dbbd6e-b748-424e-a148-0b843a3a2a52">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/mealify</jdbc-url>
+      <user-name>aaronwishnick</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

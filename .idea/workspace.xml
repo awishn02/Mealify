@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c94fcd67-70bb-4656-a947-bfd14fb3c18a" name="Default" comment="" />
+    <ignored path="Mealify.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Mealify" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DATABASE/c4dbbd6e-b748-424e-a148-0b843a3a2a52.schema:mealify.public" pinned="false" current="true" current-in-tab="true">
+        <entry file="uml://DATABASE/c4dbbd6e-b748-424e-a148-0b843a3a2a52.schema:mealify.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>c4dbbd6e-b748-424e-a148-0b843a3a2a52.schema:mealify.public</OriginalElement>
+              <nodes>
+                <node x="148.0" y="172.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients</node>
+                <node x="-2.0" y="-38.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</node>
+                <node x="-28.0" y="173.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.directions</node>
+                <node x="226.75" y="22.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.ingredient</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.ingredient">
+                  <point x="44.25" y="-48.5" />
+                  <point x="0.0" y="37.5" />
+                </edge>
+                <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.directions" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe">
+                  <point x="0.0" y="-48.5" />
+                  <point x="-37.0" y="59.5" />
+                </edge>
+                <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe">
+                  <point x="-44.25" y="-48.5" />
+                  <point x="192.25" y="144.0" />
+                  <point x="138.0" y="144.0" />
+                  <point x="37.0" y="59.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="167.5" y="133.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="dbtable:/5614d0f8/c4dbbd6e-b748-424e-a148-0b843a3a2a52/mealify.public.recipe" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="29" />
+    <option name="width" value="1260" />
+    <option name="height" value="760" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mealify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mealify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mealify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllRecipesPuller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mealify" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c94fcd67-70bb-4656-a947-bfd14fb3c18a" name="Default" comment="" />
+      <created>1405401893350</created>
+      <updated>1405401893350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="29" width="1260" height="760" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33174604" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="dbDummy://dbtable:/5614d0f8/c4dbbd6e-b748-424e-a148-0b843a3a2a52/mealify.public.recipe">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="49.0" y="-18.5" />
+          <SelectedNodes>
+            <node>c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c4dbbd6e-b748-424e-a148-0b843a3a2a52">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c4dbbd6e-b748-424e-a148-0b843a3a2a52</OriginalElement>
+          <nodes>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_database_conflicts</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_sys_sequences</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_user</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.views</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_user_sequences</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.view_routine_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_user_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.routine_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.user_defined_types</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sequences</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_group</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_constraint</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_available_extension_versions</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.domain_udt_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_locks</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.domains</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.character_sets</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_xact_sys_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.constraint_column_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_user_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_user_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.constraint_table_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_user_functions</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.column_udt_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_pltemplate</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statistic</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_depend</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_sys_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_class</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.column_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema._pg_foreign_data_wrappers</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_language</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_opfamily</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_shdescription</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_am</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_largeobject_metadata</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_matviews</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_largeobject</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.applicable_roles</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.domain_constraints</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.columns</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema._pg_foreign_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_bgwriter</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_shseclabel</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_all_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_ts_config</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.check_constraints</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.collation_character_set_applicability</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_xact_all_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.ingredient</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.role_routine_grants</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_timezone_abbrevs</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_aggregate</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.udt_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.view_column_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_user_mapping</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.key_column_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.referential_constraints</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.parameters</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_default_acl</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_views</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_cast</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_amop</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_sys_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.information_schema_catalog_name</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_database</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_sys_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_all_sequences</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_sizing_profiles</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_authid</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_data_wrappers</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_roles</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stats</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_tablespace</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_user_mappings</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.usage_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_namespace</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.collations</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_type</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.role_column_grants</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_amproc</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_server_options</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_trigger</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.view_table_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.role_usage_grants</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_seclabel</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_implementation_info</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema._pg_foreign_table_columns</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_index</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.column_options</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema._pg_foreign_servers</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_ts_template</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_seclabels</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_auth_members</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.element_types</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_xact_user_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.administrable_role_authorizations</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_shadow</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.user_mapping_options</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_features</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.data_type_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_attribute</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.role_udt_grants</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_enum</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_cursors</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_inherits</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_languages</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_rules</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_collation</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_servers</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_packages</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_available_extensions</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_range</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_database</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_settings</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.user_mappings</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.enabled_roles</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_all_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_shdepend</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.check_constraint_routine_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_foreign_server</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.triggers</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_replication</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_xact_user_functions</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_proc</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_conversion</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_extension</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_event_trigger</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.triggered_update_columns</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_user_indexes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_attrdef</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_parts</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_statio_all_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.column_domain_usage</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_table_options</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_description</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.table_constraints</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_rewrite</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.routines</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_stat_sys_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_foreign_table</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.directions</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_ts_parser</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_prepared_xacts</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema._pg_user_mappings</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_tables</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.attributes</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.role_table_grants</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.schemata</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.foreign_data_wrapper_options</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.sql_sizing</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.information_schema.table_privileges</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_ts_dict</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_operator</node>
+            <node x="" y="">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.pg_catalog.pg_opclass</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.09936257967754031" x="2641.9037735849056" y="2852.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c4dbbd6e-b748-424e-a148-0b843a3a2a52.schema:mealify.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c4dbbd6e-b748-424e-a148-0b843a3a2a52.schema:mealify.public</OriginalElement>
+          <nodes>
+            <node x="148.0" y="172.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients</node>
+            <node x="-2.0" y="-38.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe</node>
+            <node x="-28.0" y="173.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.directions</node>
+            <node x="226.75" y="22.0">c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.ingredient</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.ingredient">
+              <point x="44.25" y="-48.5" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.directions" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe">
+              <point x="0.0" y="-48.5" />
+              <point x="-37.0" y="59.5" />
+            </edge>
+            <edge source="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe_ingredients" target="c4dbbd6e-b748-424e-a148-0b843a3a2a52.table:mealify.public.recipe">
+              <point x="-44.25" y="-48.5" />
+              <point x="192.25" y="144.0" />
+              <point x="138.0" y="144.0" />
+              <point x="37.0" y="59.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="167.5" y="133.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
