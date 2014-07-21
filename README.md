@@ -14,4 +14,7 @@ Future Plans:
    - Update on this (7/15/14): I have been wanted to learn django for a while, might be worth trying out
   - Set up a database, probably postgresql
   - Recipes should parse nutritional information as well
-  
+
+UPDATE: 7/20/14
+===============
+Added Django website: hosted on heroku now -- http://morning-plateau-6301.herokuapp.com
