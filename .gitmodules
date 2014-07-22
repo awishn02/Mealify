@@ -1,0 +1,3 @@
+[submodule "mealist"]
+	path = mealist
+	url = git://github.com/awishn02/mealist.git
