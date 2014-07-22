@@ -17,4 +17,4 @@ Future Plans:
 
 UPDATE: 7/20/14
 ===============
-Added Django website: hosted on heroku now -- http://morning-plateau-6301.herokuapp.com
+Added Django website: hosted on heroku now -- http://mealist.herokuapp.com
